@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SandVerse - The BlokSpace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SandVerse</h1>
+  
+    <!-- Paleta de Cores -->
+    <div id="colorPicker">
+      <span>Escolha a cor: </span>
+      <button onclick="setColor('#8B4513')" style="background-color: #8B4513;"></button>
+      <button onclick="setColor('#FF0000')" style="background-color: #FF0000;"></button>
+      <button onclick="setColor('#00FF00')" style="background-color: #00FF00;"></button>
+      <button onclick="setColor('#0000FF')" style="background-color: #0000FF;"></button>
+      <button onclick="setColor('#FFFF00')" style="background-color: #FFFF00;"></button>
+      <button onclick="setColor('#FF00AA')" style="background-color: #ff00aa;"></button>
+    </div>
+  
+    <div class="cu">
+        <!-- Botão para salvar a imagem -->
+<button class="save-btn" onclick="saveCanvas()">Salvar</button>
+
+<!-- Botão para limpar o grid -->
+<button onclick="clearGrid()">Limpar</button>
+    </div>
+
+  <div id="chat">
+    <div id="messages"></div>
+    <input id="messageInput" placeholder="Digite sua mensagem..." />
+    <button class="send-btn" onclick="sendMessage()">Enviar</button>
+  </div>
+
+  <canvas id="gameCanvas"></canvas>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
