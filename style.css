@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Poppins';
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    top: 0;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    margin-top: 0;
+    border-bottom: 20px solid black;
+    background-color: white;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(0, 37, 0);
+}
+nav h1 {
+    color: rgb(0, 37, 0);
+    width: 300px;
+    cursor: pointer;
+    margin-left: 6%;
+    margin-right: 1%;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+li a:hover {
+    color: rgb(0, 160, 0);
+    transition: 0.5s ease;
+}
+
+.support-btn {
+    margin-left: 30px;
+}
+
+.support-btn button {
+    all: unset;
+    color: rgb(0, 37, 0);
+    background-color: white;
+    border: 2px solid rgb(0, 37, 0);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.support-btn button:hover {
+    outline: none;
+    color: white;
+    background-color: rgb(0, 160, 0);
+    border: 2px solid rgb(0, 160, 0);
+    transition: 0.3s ease;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.hero {
+    background-color: rgb(0, 37, 0);
+}
+
+.hero h1 {
+    color: white;
+    padding-top: 15%;
+    font-size: 70px;
+    margin-left: 200px;
+}
+
+.hero p {
+    color: white;
+    margin-top: -50px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+.spacer {
+    height: 40px;
+}
+
+.services-btn button {
+    all: unset;
+    color: white;
+    background-color: rgb(0, 200, 0);
+    border: 2px solid rgb(0, 200, 0);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+.services-btn button:hover {
+    outline: none;
+    color: white;
+    background-color: rgb(0, 160, 0);
+    border: 2px solid rgb(0, 160, 0);
+    transition: 0.3s ease;
+}
