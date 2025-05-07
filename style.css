@@ -90,7 +90,7 @@ section {
 
 .hero h1 {
     color: white;
-    padding-top: 15%;
+    padding-top: 10%;
     font-size: 70px;
     margin-left: 200px;
 }
@@ -103,7 +103,7 @@ section {
 }
 
 .spacer {
-    height: 40px;
+    height: 30px;
 }
 
 .services-btn button {
